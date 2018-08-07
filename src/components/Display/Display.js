@@ -1,14 +1,20 @@
 import React from 'react'
 import './Display.css';
-import DisplayText from '../DisplayText/DisplayText';
+import DisplayTxt from '../DisplayTxt/DisplayTxt';
 
-const display = (props) => {
+const displayTxt = (props) => {
 
     return (
       <div className='Display'>
-        <DisplayText />
+        <DisplayTxt txt='W' size={10}/>
+        <DisplayTxt txt='W' size={20}/>
+        <DisplayTxt txt='W' size={30}/>
+        <DisplayTxt txt='W' size={40}/>
+        <DisplayTxt txt='W' size={30}/>
+        <DisplayTxt txt='W' size={20}/>
+        <DisplayTxt txt='W' size={10}/>
       </div>
     );
   }
 
-export default display;
+export default displayTxt;

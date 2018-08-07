@@ -5,7 +5,7 @@ const button = (props) => {
 
     return (
       <div className='Button'>
-
+        {props.txt}
       </div>
     );
   }

@@ -1,9 +1,12 @@
 .Button{
   height: 95px;
   width: 95px;
-  font-size: 64px;
+  font-size: 54px;
   border: 1px black solid;
   border-radius: 5px;
   background-color: #222222;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
