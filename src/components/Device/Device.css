@@ -1,0 +1,25 @@
+#device-rectangle{
+  background: #000000;
+  border: 1px solid #979797;
+  border-radius: 14px;
+}
+#button{
+  background: #222222;
+  border: 1px solid #979797;
+  border-radius: 7px;
+}
+.buttonTxt{
+  font-family: ArialMT;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+#display-rectangle{
+  background: #222222;
+  border: 1px solid #979797;
+  border-radius: 7px;
+}
+.displayTxt{
+  font-family: ArialMT;
+  font-size: 72px;
+  color: #FFFFFF;
+}

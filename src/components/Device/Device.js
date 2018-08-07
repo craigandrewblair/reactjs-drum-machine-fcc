@@ -10,5 +10,6 @@ class Device extends Component {
     );
   }
 }
+}
 
 export default Device;
