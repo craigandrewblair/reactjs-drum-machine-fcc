@@ -1,0 +1,9 @@
+.Display{
+  height: 60px;
+  width: 290px;
+  font-size: 64px;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: #222222;
+  color: white;
+}
