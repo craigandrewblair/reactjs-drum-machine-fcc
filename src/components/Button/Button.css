@@ -1,4 +1,4 @@
-.Button{
+.drum-pad{
   height: 95px;
   width: 95px;
   font-size: 54px;
@@ -9,4 +9,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }

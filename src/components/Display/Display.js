@@ -5,14 +5,14 @@ import DisplayTxt from '../DisplayTxt/DisplayTxt';
 const displayTxt = (props) => {
 
     return (
-      <div className='Display'>
-        <DisplayTxt txt='W' size={10}/>
-        <DisplayTxt txt='W' size={20}/>
-        <DisplayTxt txt='W' size={30}/>
-        <DisplayTxt txt='W' size={40}/>
-        <DisplayTxt txt='W' size={30}/>
-        <DisplayTxt txt='W' size={20}/>
-        <DisplayTxt txt='W' size={10}/>
+      <div id='display'>
+        <DisplayTxt txt={props.txt} size={10}/>
+        <DisplayTxt txt={props.txt} size={20}/>
+        <DisplayTxt txt={props.txt} size={30}/>
+        <DisplayTxt txt={props.txt} size={40}/>
+        <DisplayTxt txt={props.txt} size={30}/>
+        <DisplayTxt txt={props.txt} size={20}/>
+        <DisplayTxt txt={props.txt} size={10}/>
       </div>
     );
   }
