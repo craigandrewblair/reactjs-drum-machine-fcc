@@ -5,15 +5,19 @@ import DisplayTxt from '../DisplayTxt/DisplayTxt';
 const displayTxt = (props) => {
 
     return (
+      props.txt === '' ?
       <div id='display'>
-        <DisplayTxt txt={props.txt} size={10}/>
-        <DisplayTxt txt={props.txt} size={20}/>
-        <DisplayTxt txt={props.txt} size={30}/>
-        <DisplayTxt txt={props.txt} size={40}/>
-        <DisplayTxt txt={props.txt} size={30}/>
-        <DisplayTxt txt={props.txt} size={20}/>
-        <DisplayTxt txt={props.txt} size={10}/>
-      </div>
+        <DisplayTxt txt='Play That Beat!' size={25} visible={props.visible}/>
+      </div>:
+      <div id='display'>
+        <DisplayTxt txt={props.txt} size={10} visible={props.visible}/>
+        <DisplayTxt txt={props.txt} size={20} visible={props.visible}/>
+        <DisplayTxt txt={props.txt} size={30} visible={props.visible}/>
+        <DisplayTxt txt={props.txt} size={40} visible={props.visible}/>
+        <DisplayTxt txt={props.txt} size={30} visible={props.visible}/>
+        <DisplayTxt txt={props.txt} size={20} visible={props.visible}/>
+        <DisplayTxt txt={props.txt} size={10} visible={props.visible}/>
+      </div> 
     );
   }
 

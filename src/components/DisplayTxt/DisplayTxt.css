@@ -1,4 +1,20 @@
-#Display-Txt{
+.Display-Txt{
   color: white;
   font-size: 40px;
+}
+
+.fadeOut{
+  animation: fadeOut 0.5s linear running;
+}
+
+.fadeIn{
+  animation: fadeIn 0.5s linear running;
+}
+@keyframes fadeOut {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
+}
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
 }

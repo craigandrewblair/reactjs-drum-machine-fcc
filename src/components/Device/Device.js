@@ -27,7 +27,8 @@ class Device extends Component {
         'X': RP4_KICK_1,
         'C': Cev_H2
       },
-      lastPlayed: ''    
+      lastPlayed: '',
+      visible: true   
     }
   }
 
@@ -35,14 +36,18 @@ class Device extends Component {
     let audio = new Audio(url);
     audio.play();
     this.setState({
-      lastPlayed: Object.keys(this.state.url).find(key => this.state.url[key] === url)
+      lastPlayed: Object.keys(this.state.url).find(key => this.state.url[key] === url),
+      visible: false
     });
+    setTimeout(() => {
+      this.setState({visible: true});
+    }, 100);
   }
 
   render() {
     return(
       <div id='drum-machine'>
-        <Display txt={this.state.lastPlayed}/>
+        <Display txt={this.state.lastPlayed} visible={this.state.visible}/>
         <Pad onclick={this.audioHandler} url={this.state.url}/>
       </div>
     );
