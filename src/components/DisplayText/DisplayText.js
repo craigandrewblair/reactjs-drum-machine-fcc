@@ -1,13 +1,13 @@
 import React from 'react'
-import './DeviceText.css';
+import './DisplayText.css';
 
-const deviceText = (props) => {
+const displayText = (props) => {
 
     return (
-      <div className='DeviceText'>
+      <div className='DisplayText'>
 
       </div>
     );
   }
 
-export default deviceText;
+export default displayText;

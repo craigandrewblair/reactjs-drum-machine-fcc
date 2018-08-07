@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Device from './components/Device/Device';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">React Drum Machine</h1>
         </header>
+        <Device />
         <div className='App-footer'>Craig Blair &copy; 2018</div>
       </div>
     );

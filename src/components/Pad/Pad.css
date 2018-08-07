@@ -1,0 +1,15 @@
+#Pad-Div{
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px black solid;
+  border-radius: 15px;
+  background-color: black;
+}
+.Pad-Row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
